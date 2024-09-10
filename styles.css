@@ -149,7 +149,7 @@ button {
   .quote {
     text-align: center;
     background-color: #C73659;
-    padding: 24px;
+    padding: 100px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
