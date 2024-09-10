@@ -35,9 +35,9 @@ body {
 
 .header-text {
     margin: 0 0 0 24px;
-    font-family: kola;
+    font-family: arry-regular;
     font-size: clamp(1rem, 1.5vw, 4rem);
-    font-weight: 900;
+    
     color: #f9faf8;
 }
 
@@ -51,7 +51,7 @@ ul {
 
 a {
     text-decoration: none;
-    font-family: roboto-regular;
+    font-family: khand-regular;
     font-size: clamp(0.8rem, 1vw, 4rem);
     color: #f9faf8;
 }
@@ -71,27 +71,27 @@ a {
     height: auto;
 }
 
-.hero-pic {
+.hero-right {
     width: 400px;
     height: auto;
 }
 
 .hero-main {
     font-family: arry-regular;
-    font-size: clamp(0.5rem, 4vw, 4rem);
+    font-size: clamp(0.8rem, 4vw, 4rem);
     font-weight: lighter;
     color: #f9faf8;
 }
 
-.hero-second {
+.hero-second, .item-text {
     font-family: khand-regular;
-    font-size: clamp(0.6rem, 1vw, 4rem);
+    font-size: clamp(0.7rem, 1vw, 4rem);
     color: #e5e7eb;
 }
 
 
 
-.test {
+.hero-pic {
     width: 100%;
     height: auto;
 }
@@ -108,4 +108,75 @@ button {
     display: inline-block;
     font-size: clamp(0.5rem, 1vw, 4rem);
     font-family: khand-regular;
+  }
+
+  .info {
+    text-align: center;
+    background-color: #A91D3A;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-text, .quote-header {
+    margin-bottom: 2vw;
+    font-family: arry-regular;
+    font-size: clamp(1rem, 2vw, 4rem);
+    font-weight: lighter;
+    color: #f9faf8;
+  }
+
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+  }
+
+  
+
+  .item-pic {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 4px solid #151515;
+    border-radius: 8px;
+  }
+
+  .quote {
+    text-align: center;
+    background-color: #C73659;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote-text {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-style: italic;
+    font-family: khand-regular;
+    font-size: clamp(0.7rem, 1.5vw, 4rem);
+    color: #e5e7eb;
+  }
+
+  .quote-auther {
+    width: 80%;
+    color: #e5e7eb;
+    font-size: clamp(0.7rem, 1.5vw, 4rem);
+    font-family: khand-regular;
+    font-weight: 200;
+    text-align: right;
+  }
+
+  .footer {
+    padding: 12px;
+    background-color: #151515;
+    text-align: center;
+    color: #e5e7eb;
+    font-family: khand-regular;
+    font-size: clamp(0.7rem, 1.5vw, 4rem);
   }
